@@ -42,12 +42,12 @@ const Bantuan = () => {
     }, []);
 
     const imageUrls = [
-        'src/assets/img/foto-Drought.jpeg',
-        'src/assets/img/foto-dustHaze.jpeg',
-        'src/assets/img/foto-Earthquakes.jpeg',
-        'src/assets/img/foto-Floods.jpeg',
-        'src/assets/img/foto-Landslides.jpeg',
-        'src/assets/img/foto-Manmade.jpeg',
+        'https://github.com/wiifkyy/bantuanbencana/blob/main/src/assets/img/foto-Drought.jpeg',
+        'https://github.com/wiifkyy/bantuanbencana/blob/main/src/assets/img/foto-dustHaze.jpeg',
+        'https://github.com/wiifkyy/bantuanbencana/blob/main/src/assets/img/foto-Earthquakes.jpeg',
+        'https://github.com/wiifkyy/bantuanbencana/blob/main/src/assets/img/foto-Floods.jpeg',
+        'https://github.com/wiifkyy/bantuanbencana/blob/main/src/assets/img/foto-Landslides.jpeg',
+        'https://github.com/wiifkyy/bantuanbencana/blob/main/src/assets/img/foto-Manmade.jpeg',
     ];
 
     return (
