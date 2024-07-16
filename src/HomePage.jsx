@@ -42,13 +42,13 @@ const Bantuan = () => {
     }, []);
 
    const imageUrls = [
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaHa974sOtBJZfS-4JWD-ado0GVREQ8vfnrw&s',
-    'src/assets/img/foto-DustHaze.jpeg',
-    'https://raw.githubusercontent.com/wiifkyy/bantuanbencana/main/src/assets/img/foto-Earthquakes.jpeg',
-    'https://raw.githubusercontent.com/wiifkyy/bantuanbencana/main/src/assets/img/foto-Floods.jpeg',
-    'https://raw.githubusercontent.com/wiifkyy/bantuanbencana/main/src/assets/img/foto-Landslides.jpeg',
-    'https://raw.githubusercontent.com/wiifkyy/bantuanbencana/main/src/assets/img/foto-Manmade.jpeg',
-];
+        'assets/img/foto-Drought.jpeg',
+        'assets/img/foto-dustHaze.jpeg',
+        'assets/img/foto-Earthquakes.jpeg',
+        'assets/img/foto-Floods.jpeg',
+        'assets/img/foto-Landslides.jpeg',
+        '/assets/img/foto-Manmade.jpeg',
+    ];
     return (
         <div className={`flex flex-col h-screen ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-700'}`}>
             <Navbar />
