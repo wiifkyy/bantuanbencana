@@ -42,12 +42,12 @@ const Bantuan = () => {
     }, []);
 
    const imageUrls = [
-        '/vercel/path0/assets/img/foto-Drought.jpeg',
-        '/vercel/path0/assets/img/foto-dustHaze.jpeg',
-        '/vercel/path0/assets/img/foto-Earthquakes.jpeg',
-        '/vercel/path0/assets/img/foto-Floods.jpeg',
-        '/vercel/path0/assets/img/foto-Landslides.jpeg',
-        '/vercel/path0/assets/img/foto-Manmade.jpeg',
+        'assets/img/foto-Drought.jpeg',
+        'assets/img/foto-dustHaze.jpeg',
+        'assets/img/foto-Earthquakes.jpeg',
+        'assets/img/foto-Floods.jpeg',
+        'assets/img/foto-Landslides.jpeg',
+        'assets/img/foto-Manmade.jpeg',
     ];
     return (
         <div className={`flex flex-col h-screen ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-700'}`}>
