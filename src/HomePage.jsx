@@ -43,7 +43,7 @@ const Bantuan = () => {
 
    const imageUrls = [
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaHa974sOtBJZfS-4JWD-ado0GVREQ8vfnrw&s',
-    'https://raw.githubusercontent.com/wiifkyy/bantuanbencana/main/src/assets/img/foto-dustHaze.jpeg',
+    'src/assets/img/foto-DustHaze.jpeg',
     'https://raw.githubusercontent.com/wiifkyy/bantuanbencana/main/src/assets/img/foto-Earthquakes.jpeg',
     'https://raw.githubusercontent.com/wiifkyy/bantuanbencana/main/src/assets/img/foto-Floods.jpeg',
     'https://raw.githubusercontent.com/wiifkyy/bantuanbencana/main/src/assets/img/foto-Landslides.jpeg',
