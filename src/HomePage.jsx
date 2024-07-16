@@ -41,15 +41,14 @@ const Bantuan = () => {
         fetchDisasterCategories();
     }, []);
 
-    const imageUrls = [
-        'https://github.com/wiifkyy/bantuanbencana/blob/main/src/assets/img/foto-Drought.jpeg',
-        'https://github.com/wiifkyy/bantuanbencana/blob/main/src/assets/img/foto-dustHaze.jpeg',
-        'https://github.com/wiifkyy/bantuanbencana/blob/main/src/assets/img/foto-Earthquakes.jpeg',
-        'https://github.com/wiifkyy/bantuanbencana/blob/main/src/assets/img/foto-Floods.jpeg',
-        'https://github.com/wiifkyy/bantuanbencana/blob/main/src/assets/img/foto-Landslides.jpeg',
-        'https://github.com/wiifkyy/bantuanbencana/blob/main/src/assets/img/foto-Manmade.jpeg',
-    ];
-
+   const imageUrls = [
+    'https://raw.githubusercontent.com/wiifkyy/bantuanbencana/main/src/assets/img/foto-Drought.jpeg',
+    'https://raw.githubusercontent.com/wiifkyy/bantuanbencana/main/src/assets/img/foto-dustHaze.jpeg',
+    'https://raw.githubusercontent.com/wiifkyy/bantuanbencana/main/src/assets/img/foto-Earthquakes.jpeg',
+    'https://raw.githubusercontent.com/wiifkyy/bantuanbencana/main/src/assets/img/foto-Floods.jpeg',
+    'https://raw.githubusercontent.com/wiifkyy/bantuanbencana/main/src/assets/img/foto-Landslides.jpeg',
+    'https://raw.githubusercontent.com/wiifkyy/bantuanbencana/main/src/assets/img/foto-Manmade.jpeg',
+];
     return (
         <div className={`flex flex-col h-screen ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-700'}`}>
             <Navbar />
